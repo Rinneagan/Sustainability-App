@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap');
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Additional styling for dark mode */
+
+.column {
+    display: inline-block;
+    width: 50%;
+}
+
+.site-header-text span {
+    color: #5CDB95;
+    /* Change the color */
+    font-size: 2em;
+    /* Increase the font size */
+    font-weight: bold;
+    /* Make the text bold */
+    text-transform: uppercase;
+    /* Convert text to uppercase */
+    font-family: 'Cascadia Code', monospace;
+    /* Set the font family to Cascadia Code */
+}
+
+.font-family {
+    font-family: 'Outfit', 'Unbounded', monospace;
+}
+
+.site-name {
+    font-family: 'Unbounded', monospace;
+}

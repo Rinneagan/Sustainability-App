@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #55a630;
+}
+
+#quiz {
+    margin-bottom: 20px;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #55a630;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#results {
+    text-align: center;
+    font-weight: bold;
+    color: #55a630;
+}

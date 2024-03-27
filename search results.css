@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .search-bar {
+    background-color: #333;
+    color: #fff;
+}
+
+.search-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    flex: 0;
+}

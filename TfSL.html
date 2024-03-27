@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eco-friendly Tips and Guides</title>
+</head>
+<body>
+    <h1>Eco-friendly Tips and Guides</h1>
+
+    <div id="tipsContainer"></div>
+
+    <script>
+        // Sample JSON data for tips and guides
+        const tipsData = [
+            {
+                category: "Energy Conservation",
+                tips: [
+                    "Turn off lights when not in use",
+                    "Unplug electronics when not in use",
+                    "Use energy-efficient light bulbs"
+                ]
+            },
+            {
+                category: "Waste Reduction",
+                tips: [
+                    "Recycle paper, plastic, and glass",
+                    "Compost organic waste",
+                    "Use reusable shopping bags"
+                ]
+            },
+            {
+                category: "Eco-friendly Products",
+                tips: [
+                    "Choose biodegradable cleaning products",
+                    "Opt for eco-friendly personal care items",
+                    "Buy products with minimal packaging"
+                ]
+            },
+            {
+                category: "Sustainable Transportation",
+                tips: [
+                    "Walk or bike for short distances",
+                    "Use public transportation",
+                    "Carshare or rideshare"
+                ]
+            }
+        ];
+
+        // Display tips and guides on the webpage
+        const tipsContainer = document.getElementById("tipsContainer");
+
+        tipsData.forEach((category) => {
+            const categoryDiv = document.createElement("div");
+            categoryDiv.innerHTML = `<h2>${category.category}</h2><ul>${category.tips.map(tip => `<li>${tip}</li>`).join("")}</ul>`;
+            tipsContainer.appendChild(categoryDiv);
+        });
+    </script>
+</body>
+</html>
